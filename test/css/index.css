@@ -1,0 +1,41 @@
+﻿body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body{font:12px/22px Arial;color:#333;}
+ul,li{list-style:none;}
+a{color:#333;text-decoration:none;}
+a.blue{color:#2274c0;}
+.banner{width:1002px;height:250px;margin:0 auto;padding:10px;background:#f3f3f3;overflow:hidden;}
+.scrollpic{position:relative;float:left;width:720px;height:240px; overflow:hidden;}
+.scrollpic ul{position:absolute;height:240px;}
+.scrollpic li{position:absolute;width:720px;height:240px;list-style:none;}
+.scrollpic li .bg{position:absolute;bottom:0;width:100%;height:60px; background:#333; opacity:0.5;filter:alpha(opacity=50); z-index:1;}
+.scrollpic li .txt{position:absolute;bottom:0;width:500px;height:60px;padding-left:30px;color:#fff;font:22px/30px "Microsoft YaHei",SimHei; z-index:2;}
+.scrollpic li .txt span{font:12px/22px Simsun;padding:2px 0 2px 20px; background:url(img/hand.png) no-repeat;}
+.scrollpic img{width:720px;height:240px;}
+.scrollpic dl{position:absolute;bottom:0;right:0;width:200px;height:50px; z-index:99;}
+.scrollpic dl dd{float:left;width:22px;height:22px; cursor:pointer;}
+.scrollpic dl .point{background:url(img/point.png) 0px 0px  no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src='css/img/point.png');}
+.scrollpic dl .cur{background:url(img/point_cur.png) 0px 0px  no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src='css/img/point_cur.png');}
+.scrollpic dl .prev{background:url(img/left.png) 5px 0px  no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src='css/img/left.png');}
+.scrollpic dl .next{background:url(img/right.png) 5px 0px  no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=crop,src='css/img/right.png');}
+
+.share{float:right;width:228px;}
+.share .pic{height:130px; clear:both; background:url(img/share_pic.jpg) no-repeat;}
+.share ul{height:24px;padding:2px 0;}
+.share ul li{float:left;color:#666;}
+.share ul li.num{width:18px;height:20px;border:1px solid #c5c5c5;border-width:2px 1px 2px; background-color:#fff; background-image:url(img/nums.png);}
+.share ul li.n0{ background-position:0 0;}
+.share ul li.n1{ background-position:0 -24px;}
+.share ul li.n2{ background-position:0 -48px;}
+.share ul li.n3{ background-position:0 -72px;}
+.share ul li.n4{ background-position:0 -95px;}
+.share ul li.n5{ background-position:0 -120px;}
+.share ul li.n6{ background-position:0 -144px;}
+.share ul li.n7{ background-position:0 -168px;}
+.share ul li.n8{ background-position:0 -192px;}
+.share ul li.n9{ background-position:0 -215px;}
+.share ul li.first{height:24px;border-right:1px solid #c5c5c5; padding-right:4px;}
+.share ul li.last{height:24px;border-left:1px solid #c5c5c5; padding-left:4px;}
+.share .btn{width:210px;height:42px;background:url(img/share_btn.jpg) no-repeat;border:0;outline:none;cursor:pointer; margin-top:10px;}
+.warp{width:1002px;margin:10px auto;}
+.warp table{width:100%; empty-cells:show;border-collapse:collapse;border-spacing:0}
+.warp table td{height:24px;border:1px solid #ccc; border-width:1px 0;padding:0 4px; color:#666;}
